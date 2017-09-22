@@ -1,0 +1,3 @@
+* Collection Tab shows instruction of login, when not login.
+* Adding Total number of collection in the collection list.
+

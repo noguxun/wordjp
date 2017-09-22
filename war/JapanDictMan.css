@@ -1,0 +1,283 @@
+/** Add css rules here for your application. */
+/* 
+
+http://www.webreference.com/programming/css_stylish/  
+http://code.google.com/webtoolkit/doc/latest/tutorial/style.html
+
+*/
+
+
+
+
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  color: #123456;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+
+/*----------- Button Section Begin------------------*/
+
+.searchButton {
+  font-size: medium;
+}
+
+
+.loginButton {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.logoutButton {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.registerButton {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.addToCollectionButton
+{
+  margin-top: 8px;
+  margin-left:2px;
+  padding: 2px 2px;  
+}
+
+.shareToFaceBookLink
+{
+  margin-top: 2px;
+  margin-bottom: 8px;
+  margin-left:2px; 
+}
+
+.navigateCollectionButton
+{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.expandButton
+{
+	background: #E4E4E4 url(http://s2.wp.com/wp-content/themes/vip/tctechcrunchmobile/core/core-images/post-arrow.png) no-repeat -1px -23px;
+	border: solid #B8B8B8;
+	border-bottom-left-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	float: right;
+	height: 15px;
+	margin-top: 1px;
+	width: 18px;
+	padding: 0px;
+	border-width:1px;
+}
+/*------------Button Section End---------------------*/
+
+
+/*----------- Label Section Begin------------------*/
+
+.titleLabel{
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(250,250,250);;
+  width: 100%;   
+  text-align:center;
+  background-color:rgb(250,250,250);
+}
+
+.instructionLabel{
+  color : #654321
+}
+
+.rebLabel{
+  /*background-color:rgb(240,240,240);*/
+  /*setting the background color will cause the border radius not correctly rendered*/	
+  font-family: verdana, helvetica, sans-serif;	
+  font-weight: bold;
+  border-style:none; 
+  border-width: 1px;
+  border-radius: 15px;
+  color: #111111;  
+  margin-top: 8px;  /*first element of the entry, set the margin wider */
+  margin-right:2px;
+  margin-left: 2px;
+  //float: left;
+}
+
+.kebLabel{
+  font-family: verdana, helvetica, sans-serif;	
+  font-weight: bold;
+  border-style:none; 
+  border-width: 2px;
+  color: #333333;
+  /*background-color:rgb(240,240,240);*/
+  margin-right:2px;
+  margin-left: 2px;
+}
+
+.glossLabel{
+  border-style:none; 
+  border-width: 2px;
+  color: #333333;
+  font-weight: bold;
+  margin-right:2px;
+  margin-left: 2px;
+}
+
+.exampleLabel{
+  font-family: verdana, helvetica, sans-serif;	
+  font-weight: bold;
+  color: rgb(0, 100, 0);
+  border-style:none; 
+  margin-right:2px;
+  margin-left: 2px;
+  margin-top:8px;
+}
+
+.exampleLabelEnglish{
+  font-family:  verdana, helvetica, sans-serif;
+  border-style:none; 
+  border-width: 1px;
+  margin-right:3px;
+  margin-left: 3px;
+}
+
+.instructionLabel{	
+  font-weight: bold;
+  color: rgb(0, 100, 0);
+  border-style:none; 
+  border-top-style:solid;
+  border-top-width:5px;
+  border-top-color:rgb(250,250,250);
+  border-left-style:solid;
+  border-left-width:3px;
+  border-left-color:rgb(250,250,250);
+  background-color:rgb(250,250,250);
+}
+
+.creditsLabel{	
+  font-weight: bold;
+  color: rgb(0, 100, 0);
+  border-style:none; 
+  border-top-style:solid;
+  border-top-width:15px;
+  border-top-color:rgb(250,250,250);
+  border-left-style:solid;
+  border-left-width:3px;
+  border-left-color:rgb(250,250,250);
+  background-color:rgb(250,250,250);
+}
+
+.indexLabel{
+  border-style:none; 
+  border-color: #444444;
+  border-width: 2px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.searchedWordLabel
+{
+  font-family:  verdana, helvetica, sans-serif;	
+  margin: 5px 5px 5px 10px;
+  color : blue
+}
+
+.japaneseLabel{
+  font-family:  'Heisi Mincho W3', Symbol;
+}
+
+
+/*----------- Label Section End------------------*/
+
+
+
+/*----------- Panel Section Begin------------------*/
+.searchWordControlPanel
+{
+  border-color: orange;
+  border-width: 3px;
+  margin: 5px 0px 5px 0px;
+  vertical-align: center;
+}
+
+.searchWordPanel{
+  border-color: orange;
+  border-width: 3px;
+  margin: 5px 0px 0px 0px;
+  vertical-align: center;
+}
+
+.entryListPanel{
+  border-style:none;	
+  border-color: #123456;
+  border-width: 2px; 
+  width: 100%; 
+  margin: 5px 0px 5px 0px;
+  overflow: auto;
+  top: 0px;
+  bottom: 30px;
+}
+
+.entryListContainerPanel
+{
+  border-color: red;
+  border-width: 5px; 
+}
+
+.pageControlPanel{
+  border-style:none;	
+  border-color: #123456;
+  border-width: 2px;  
+  font-size: 3px;
+}
+
+.entryPanel{
+  border-style:solid;	
+  border-color: rgb(240,240,240);
+  border-width: 1px;
+  border-radius: 8px;  
+  margin-bottom: 20px;
+  background-color: rgb(240,240,240); 
+  border-bottom-left-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
+  border-top-left-radius: 8px 8px;
+  border-top-right-radius: 8px 8px;
+}
+
+
+.clearer{
+  clear: both;
+}
+
+/*----------- Panel Section End------------------*/
+
+.wordField{
+  border-style:solid;
+  border-width:2px;
+  border-color:black;
+  align:center;
+  font-size: 15px;
+  margin: 0px 3px 0px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
